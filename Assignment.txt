@@ -1,0 +1,176 @@
+
+
+ Questions:
+
+1. Installation of VS Code:
+   - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+   Go to chrome browser and search VScode. Then download the one that is specific to your system.
+   After it's downloaded, run it and accept the terms and condition. After that check the options you like and after that press finish to launch it.
+
+2. First-time Setup:
+   - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+   Some important extentions are 
+   -Python: Install the “Python” extension for Python development.
+   -Git: Install the “GitLens” extension for Git integration and version control.
+   -Prettier: Auto-format your code.
+
+3. User Interface Overview:
+   - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
+
+     - Editor Group:
+      The central area where you edit your files. You can open multiple editors side by side vertically or horizontally.
+      This is where you write and modify your code.
+     - Side Bar:
+      Located on the left-hand side.
+      Contains different views, such as the Explorer (to navigate files and folders), search, version control, debug, and extensions.
+      Helps you manage your project and access relevant tools.
+     - Status Bar:
+      Located at the bottom of the window.
+      Provides information about the currently opened project, the files you’re editing, and other context-specific details.
+      Displays notifications, Git status, line/column numbers, and language mode.
+     - Activity Bar:
+      Also on the left-hand side, next to the Primary Side Bar.
+      Allows you to switch between different views (e.g., Explorer, search, version control, debug, extensions).
+      Provides quick access to specific functionalities based on your current task.
+
+4. Command Palette:
+   - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
+
+   The Command Palette in Visual Studio Code (VS Code) is a tool that allows you to execute various commands and actions within the editor. You can access it using the keyboard shortcut  Ctrl+Shift+P.
+
+ Some common tasks you can perform using the Command Palette:
+
+   - Open File: Quickly open a specific file in the editor.
+   - Search Symbols: Find specific symbols (e.g., functions, classes) within your code.
+   - Run Task: Execute predefined tasks (e.g., build, test, debug) associated with your project1.
+   - Manage Extensions: Install, update, or remove VS Code extensions.
+
+5. Extensions in VS Code:
+   - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+
+   Extensions play a crucial role in enhancing Visual Studio Code (VS Code) by adding languages, debuggers, and tools to support development workflow. 
+
+      - Finding Extensions:
+      Open VS Code and click on the Extensions icon in the Activity Bar (or use the shortcut Ctrl+Shift+X on Windows).
+      Browse the VS Code Marketplace to discover extensions. Each extension includes a brief description, publisher details, download count, and rating.
+      Search for specific extensions using keywords (e.g., “JavaScript,”).
+      - Installing Extensions:
+      Once you find an extension, click the Install button.
+      After installation, the button changes to a Manage gear icon.
+   
+      -Managing Extensions:
+      Use the Command Palette (⇧⌘P or Ctrl+Shift+P) to perform extension-related tasks.
+      Disable, update, or uninstall extensions as needed.
+      Explore settings and commands contributed by installed extensions.
+
+6. Integrated Terminal:
+   - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+
+      The integrated terminal in Visual Studio Code (VS Code) is a feature that allows you to run commands, execute scripts, and interact with your project directly within the editor. 
+
+       - Opening the Integrated Terminal:
+      Use the keyboard shortcut Ctrl+ to toggle the terminal panel.
+      Alternatively, go to the menu and choose Terminal > New Terminal or View > Terminal.
+      You can also open a terminal from the Command Palette using the View: Toggle Terminal command.
+       - Advantages of the Integrated Terminal:
+      Seamless Integration: The integrated terminal is tightly integrated with VS Code. It starts at the root of your workspace, making it easy to navigate project files and execute commands.
+      Git Integration: Execute Git commands directly within the editor. Commit changes, push code, and manage branches seamlessly.
+      Customization: Customize font size, family, and other settings to enhance readability1.
+      Shell Integration: Detects and uses various shells installed on your machine, including those from system defaults.
+      Shell Decorations: Provides additional functionality like shell integration decorations (e.g., tracking where commands are run).
+      Multiple Terminals: Create and manage multiple terminal instances. Split terminals into groups (split panes) for efficient multitasking.
+      Status Indicators: Icons next to terminal titles show status changes (e.g., tasks completion, errors).
+
+7. File and Folder Management:
+   - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+   Creating Files and Folders:
+To create a new file, use the New File button in the Explorer View (the sidebar on the left). Click the paper icon with a plus sign.
+To create a new folder, use the New Folder button (folder icon with a plus sign) in the same view.
+Alternatively, you can right-click in the Explorer View and choose New File or New Folder.
+Keyboard shortcuts:
+Create a new file: Ctrl+N (Windows/Linux) or ⌘N (macOS).
+Create a new folder: Ctrl+Shift+N (Windows/Linux) or ⌘Shift+N (macOS).
+Opening Files and Folders:
+Use the File > Open Folder… menu to open an entire folder as a workspace in VS Code.
+Alternatively, if you launch VS Code from a terminal, pass the path to a folder as the first argument to the code command. For example:
+code .
+
+Quick switching between files within the current folder:
+Use Go > Go to File (or press ⌘P on macOS or Ctrl+P on Windows/Linux) to open any file by its name.
+Navigating Efficiently:
+Switching Between Files:
+Hold Ctrl and press Tab to view a list of all files open in an editor group. Pick the file you want to navigate to.
+Use Ctrl+Alt± (navigate left) and Ctrl+Shift± (navigate right) to switch between files and edit locations.
+Breadcrumbs:
+The Breadcrumbs bar above the editor shows your current location (folder, file, and symbol).
+Click on a breadcrumb to quickly navigate between folders, files, and symbols.
+Customize breadcrumb appearance using settings.
+Explorer View:
+Use the sidebar’s Explorer View to see the contents of your opened folder.
+Drag and drop folders into the sidebar for easy access.
+Quickly switch between files by clicking on them in the Explorer.
+
+8. Settings and Preferences:
+   - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+
+      -   Accessing Settings:
+      To open the Settings editor, navigate to File > Preferences > Settings.
+      Or, use the Command Palette  Ctrl+Shift+P and search for Preferences: Open Settings.
+      
+      - Changing the Theme:
+      To change the color theme, go to File > Preferences > Color Theme.
+      Browse available themes or install additional ones from the Extensions Marketplace.
+      
+       -  Adjusting Font Size:
+      To modify the font size,
+      Open the Settings editor.
+      Navigate to Text Editor > Font.
+      Enter your desired font size in the Font Size section.
+      
+       - Customizing Keybindings:
+      To customize keyboard shortcuts:
+      Use the Keyboard Shortcuts editor:
+      Go to File > Preferences > Keyboard Shortcuts.
+      Search for commands or keybindings.
+      Modify, remove, or reset keybindings.
+      Customize shortcuts for UI actions:
+      Right-click on any action item in the workbench and select Customize Keybinding.
+      Set up keybindings according to your preferences
+
+9. Debugging in VS Code:
+   - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
+
+10. Using Source Control:
+    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+    
+
+    Initialize a Local Git Repository:
+Open your project folder in VS Code.
+In the Source Control view (click the icon on the left sidebar), select the Initialize Repository button.
+This creates a new Git repository in your current folder, allowing you to track code changes.
+Make Changes to Your Files:
+Edit your code files within VS Code.
+Save your changes (press Ctrl+S or Command+S on macOS).
+Stage Changes:
+In the Source Control view, click the + sign next to the file(s) you want to stage for commit.
+Staging is equivalent to running git add in the terminal.
+Commit Your Changes:
+Above the staged changes, type a meaningful commit message.
+Press Ctrl+Enter (macOS: ⌘+Enter) to commit the changes.
+If there are staged changes, only those will be committed. Otherwise, you’ll be prompted to select which changes to commit.
+Push to GitHub:
+If you haven’t already, create a new repository on GitHub.
+Copy the repository URL.
+Back in VS Code, click the three dots in the bottom-left corner and choose Publish Branch.
+Provide a name for your repository and select public or private.
+VS Code pushes your local code to the remote repository on GitHub.
+
+ Submission Guidelines:
+- Your answers should be well-structured, concise, and to the point.
+- Provide screenshots or step-by-step instructions where applicable.
+- Cite any references or sources you use in your answers.
+- Submit your completed assignment by 1st July 
+
+references
+google
+copilot
